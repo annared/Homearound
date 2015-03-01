@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/almostWhite"
+    android:clickable="true"
+    android:id="@+id/addad3">
+	
+     <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bottomborder"
+        android:text="@string/next" />
+     
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:textColor="@color/orange"
+        android:text="@string/type"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:layout_alignBaseline="@id/textView1"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/orange"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/editText"
+        android:inputType="numberDecimal"
+        android:layout_alignBaseline="@id/textView2"
+        android:layout_toRightOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/orange"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType="numberDecimal"
+        android:id="@+id/editText2"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@id/textView3"
+        android:layout_toRightOf="@+id/textView3" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+
+	
+
+</RelativeLayout>

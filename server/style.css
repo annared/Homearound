@@ -1,0 +1,139 @@
+article, aside, footer, header, section { 
+	display: block; 
+}
+body { 
+	background:#212222; 
+	line-height:1.125em;
+	color:#242424;
+}
+html { 
+	min-width:1000px;
+}
+html, body { 
+	height:100%;
+}
+
+	header{
+		height:150px;
+		overflow:hidden;
+		background: #000;
+        background-image:url(images/header-01.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:20px;
+	}
+
+	}
+	#download{
+		float: none
+
+	}
+	#content {
+		width: 100%;
+		background-color: #ebebeb;
+		min-height: 500px;
+
+	}
+	section{
+		background-color: #ebebeb;
+        float: left;
+        width: 100%;
+        
+    }
+    .testo{
+    	max-width: 700px;
+    	margin-left: 25px;
+    	margin-top: 70px;
+	    font-size: 12px;
+	    text-align: justify;
+	    color: #9d9b9b;
+    }
+    .uno img{
+	    padding: 20px;
+	     float: none!important;
+	     margin-left: auto!important;
+	     margin-right: auto!important;
+	     display: block!important;
+    }
+    
+    .uno{
+    	border-top:5px solid #fff;
+	    background-image: url("img/texture2.jpg");
+	    background-size:auto; 
+	    border-bottom:5px solid #fff;
+    }
+    .due{
+    	width: 100%;
+    	min-height: 400px;
+    	background-color: #ebebeb;
+    	column-count: 2;
+    	-moz-column-count: 2;
+    	-webkit-column-count: 2;
+    }
+    .tableDiv{
+    	padding: 50px;
+    	border-top:5px solid #fff;
+	    background-color: #ebebeb;
+	    border-bottom:5px solid #fff;
+	    min-height: 300px;	    
+    }
+    article{
+        padding: 50px;
+        width: auto;
+	    font-size: 12px;
+	    text-align: justify;
+	    font-family:Helvetica;
+	    color: #9d9b9b;
+	    min-height: 100px;
+    }
+    
+	footer{
+		padding:20px 0 22px 0;
+		border-top:5px solid #929292;
+		background: #999;
+        font-size:11px;
+        color:#FFF;
+        font-family:sans-serif;
+		height: 200px;
+        text-align:center;
+        padding-left: 40px;
+
+	}
+	
+	a:link {color:#0a3584;}      
+	a:visited {color:#a8a8a8;}  
+	a:hover {color:#b50000}  
+	a:active {color:#0a3584;} 
+	
+
+.main-box {
+	margin: 0 auto;
+	position: relative;
+	overflow:hidden;
+	background-color: #ebebeb;
+	border-top:5px solid #929292;
+	background:#fff;
+	width:100%;
+}
+
+table { 
+  min-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+tr:nth-of-type(odd) { 
+
+}
+
+th { 
+  color: black;
+  padding-right: 20px; 
+}
+
+td, th { 
+  padding: 6px; 
+  text-align:justify; 
+  border-bottom:1px solid #1c2e5b;
+}

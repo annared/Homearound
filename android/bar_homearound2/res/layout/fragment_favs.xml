@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/almostWhite"
+    android:clickable="true"
+    android:id="@+id/fragmentfavs">
+
+      <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_marginTop="10dp"/>
+    
+     <ImageView
+        android:contentDescription="@string/favsUser"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="left|top" />
+
+</RelativeLayout>

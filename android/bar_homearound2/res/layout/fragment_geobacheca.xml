@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mapcontainer" >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+    
+	<ImageButton
+   	    android:id="@+id/home"
+   	    android:layout_width="30dp"
+   	    android:layout_height="30dp"
+   	    android:layout_alignParentRight="true"
+   	    android:layout_alignParentTop="true"
+   	    android:layout_marginRight="15dp"
+   	    android:layout_marginTop="70dp"
+   	    android:padding="10dp"
+   	    android:background="@drawable/imagebutton"
+   	    android:contentDescription="@string/ok"
+   	    android:src="@drawable/home" />
+   	
+   	  <ImageButton
+   	    android:id="@+id/bed"
+   	    android:layout_width="30dp"
+   	    android:layout_height="30dp"
+   	    android:layout_alignParentRight="true"
+   	    android:layout_marginRight="15dp"
+   	    android:layout_marginTop="5dp"
+   	    android:layout_below="@+id/home"
+   	    android:padding="10dp"
+   	    android:background="@drawable/imagebutton"
+   	    android:contentDescription="@string/ok"
+   	    android:src="@drawable/bed" />
+   	  
+   	   <ImageButton
+   	    android:id="@+id/refresh"
+   	    android:layout_width="30dp"
+   	    android:layout_height="30dp"
+   	    android:layout_alignParentRight="true"
+   	    android:layout_marginRight="15dp"
+   	    android:layout_marginTop="5dp"
+   	    android:layout_below="@+id/bed"
+   	    android:padding="10dp"
+   	    android:background="@drawable/imagebutton"
+   	    android:contentDescription="@string/ok"
+   	    android:src="@drawable/refresh" />
+ 
+</RelativeLayout>

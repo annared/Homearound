@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/almostWhite"  
+    android:id="@+id/myres"
+    android:clickable="true">
+	
+    <RelativeLayout 
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/lightlightgray"
+        >
+       
+
+     <ImageButton
+         android:id="@+id/plus"
+         android:layout_width="20dp"
+         android:layout_height="20dp"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="5dp"
+         android:background="@color/lightlightgray"
+         android:contentDescription="@string/add"
+         android:src="@drawable/plus" />
+        
+    </RelativeLayout>
+    
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/buttons"
+        android:layout_marginTop="10dp"/>
+    
+     <ImageView
+         android:id="@+id/imageView"
+         android:layout_width="wrap_content"
+         android:layout_height="50dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignRight="@+id/listView"
+         android:layout_marginTop="50dp"
+         android:contentDescription="@string/resUser"
+         android:visibility="gone" />
+     
+       
+
+</RelativeLayout>

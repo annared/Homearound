@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/almostWhite"
+    android:clickable="true"
+    android:id="@+id/fragmentprofilo"   >
+     <Button
+        android:id="@+id/buttonMod"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:background="@drawable/bottomborder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/change_profile" />
+     
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/edit"
+        android:layout_below="@+id/buttonMod"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bottomborder"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="14sp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:background="@drawable/bottomborder"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="20dp"/>
+
+     <Button
+        android:id="@+id/buttonDel"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:contentDescription="@string/delete"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/bottomborder"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/listView"
+        android:text="@string/del_user" />
+   
+
+</RelativeLayout>

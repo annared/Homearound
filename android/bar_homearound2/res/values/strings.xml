@@ -1,0 +1,304 @@
+<resources>
+    
+<!-- SERVER -->
+    <string name="HOST">http://www.redcouch.it/homearound/server/</string>
+    <string name="POST">POST</string>
+     <string name="categoria">categoria</string>
+    <string name="LAT">latitudine</string>
+    <string name="LNG">longitudine</string>
+    <string name="STATUS">stato</string>
+    <string name="MSG">messaggio</string>
+    <string name="USER_EXISTS">user exists</string>
+    <string name="INSERISCI">ads_insert.php</string>
+    <string name="ADS_RESEARCH">ads_research.php</string>
+    <string name="DELETE_ADS">ads_delete.php</string>
+    <string name="CHECK_FAVS">favs_check.php</string>
+    <string name="FAVS_INSERT">favs_insert.php</string>
+    <string name="DELETE_RES">research_delete.php</string>
+    <string name="DELETE_USER">user_delete.php</string>
+    <string name="EDIT_AD">ads_edit.php</string>
+    <string name="USER_RESEARCH">research_insert.php</string>
+    <string name="RESEARCH_FIND">research_find.php</string>
+    <string name="DOWNLOAD_GEO_BACHECA">ads_georesearch.php</string>
+    <string name="TRANSLATE">address_to_coordinates.php</string>
+    <string name="USER_ADS">user_ads.php</string>
+    <string name="USER_DATA">user_data.php</string>
+    <string name="USER_FAVS">user_favs.php</string>
+    <string name="PHP_LOGIN">user_login.php</string>
+    <string name="PHP_MOD">user_mod.php</string>
+    <string name="NEW_ACCOUNT">user_newaccount.php</string>
+    <string name="USER_DOWNLOADRESEARCH">user_research.php</string>
+    <string name="USER_DELETE">user_delete.php</string>
+    <string name="USER_LOST_PSW">user_lostpassword.php</string>
+    <string name="IMAGE_PATH">images/</string>
+    <string name="IMAGE_INSERT">upload_img.php</string>
+    <string name="app_name">HomeAround</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Translate -->
+    <string name="login">Login</string>
+    <string name="new_account">New Account</string>
+    <string name="email">Email</string>
+    <string name="password">Passoword</string>
+    <string name="save_data">Save data</string>
+    <string name="title_activity_new_account">New Account</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="title_activity_bacheca_acivity">Bacheca</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logout">Logout</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="json">json</string>
+    <string name="lostpassword">Lost Password?</string>
+    <string name="chooseimage">Choose an image</string>
+    <string name="first_section">Are you searching for Home?\nBrowse the offers!\n</string>
+    <string name="res_cat">Cat</string>
+    <string name="none">None</string>
+    <string name="favs">Favs</string>
+
+    <array name="cat">
+        <item>Home</item>
+        <item>Room</item>
+    </array>
+	    <string-array name="items">
+        <item >Bacheca</item>
+        <item >Geobacheca</item>
+        <item >User</item>
+    </string-array>
+  
+    <array name="profilo_list">
+        <item>Your Ads</item>
+        <item>Your Favs</item>
+        <item>Your Research</item>
+    </array>
+    
+    <array name="nav_drawer_icons">
+        <item>@drawable/bacheca</item>
+        <item>@drawable/target</item>
+        <item>@drawable/user</item>
+    </array>
+    <string name="error_msg_3">Old Password is required.</string>
+    <string name="no_change">You didn\'t change anything</string>
+    <string name="change">Your data has been updated.</string>
+    <string name="good">Good.</string>
+    <string name="desc_list_item_icon">desc_list_item_icon</string>
+    <string name="change_profile">Change profile information</string>
+    <string name="delete">deleting..</string>
+    <string name="second_section">Are you selling or renting?\nFind a tenant!\n</string>
+    <string name="title_activity_research">Research</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="type">Type</string>
+    <string name="city">City</string>
+    <string name="area">Area</string>
+    <string name="address">Address</string>
+    <string name="price">Price</string>
+    <string name="min_price">Min price</string>
+    <string name="max_price">Max price</string>
+    <string name="mq">MQ</string>
+    <string name="offer_home">offer_home</string>
+    <string name="offer_room">offer_room</string>
+    <string name="search_home">search_home</string>
+    <string name="search_room">search_room</string>
+    <string name="next">Next</string>
+	<string name="edit">Edit</string>
+    <string-array name="Min_Price">
+        <item>None</item>
+        <item>150</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="Max_Price">
+        <item>None</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string-array name="Price">
+        <item>None</item>
+        <item>400</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1200</item>
+    </string-array>
+    <string-array name="MQ">
+        <item>None</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>140</item>
+    </string-array>
+    <string-array name="Home">
+        <item>None</item>
+        <item>One Room</item>
+        <item>Two Rooms</item>
+        <item>Three Rooms</item>
+        <item>Four or more Rooms</item>
+    </string-array>
+    <string-array name="Room">
+        <item>None</item>
+        <item>Single room</item>
+        <item>Double room</item>
+        <item>Triple room</item>
+        <item>Quadruple room</item>
+    </string-array>
+    <string-array name="City">
+        <item>None</item>
+        <item>Milano</item>
+    </string-array>
+    <string-array name="Milano">
+        <item>None</item>
+        <item>Duomo</item>
+        <item>Loreto</item>
+        <item>Lambrate</item>
+        <item>Citta Studi</item>
+        <item>Forlanini</item>
+        <item>Corvetto</item>
+        <item>Lorenteggio</item>
+        <item>San Siro</item>
+        <item>Garibaldi</item>
+        <item>Bovisa</item>
+        <item>Niguarda</item>
+        <item>Bicocca</item>
+    </string-array>
+    <string-array name="arrayCat">
+        <item>None</item>
+        <item>Offer home</item>
+        <item>Offer room</item>
+        <item>Search home</item>
+        <item>Search room</item>
+    </string-array>
+	
+    <string name="new_password">new_password</string>
+    <string name="newp">New Password</string>
+     <string name="invalid_password">invalid password</string>
+    <string name="research">Research</string>
+    <string name="category">Category</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_ads">Ads</string>
+    <string name="title_activity_bacheca">Bacheca</string>
+    <string name="sorry">Sorry</string>
+    <string name="error_empty_login">Both email and password required.</string>
+    <string name="error_login_msg">Can\'t find a match for email or password, please check the information.</string>
+    <string name="NO_INTERNET">No Internet Connection.\nSomeone broke the internet :(</string>
+    <string name="PASSWORD_ERROR">Passwords don\'t match</string>
+    <string name="ok_reg_msg">Thank you for registering! Check your mail for the account activation.</string>
+    <string name="error_reg_msg">An error occurred during registration. Please try again."</string>
+    <string name="EMPTY_REG_MSG">All fields needs to be filled out</string>
+    <string name="ERROR_INS_MSG">An error occurred during the process. Please try again.</string>
+    <string name="EMAIL_USER">user_email</string>
+    <string name="PSW_USER">user_password</string>
+    <string name="FIRSTNAME_USER">user_firstname</string>
+    <string name="LASTNAME_USER">user_lastname</string>
+    <string name="AVATAR_USER">user_avatar</string>
+    <string name="title_activity_research_ativity">Research</string>
+    <string name="SEARCH_HOME_TITOLO">search_home_title</string>
+    <string name="SEARCH_HOME_ID">search_home_id</string>
+    <string name="SEARCH_HOME_DESCRIPTION">search_home_description</string>
+    <string name="SEARCH_HOME_MINPRICE">search_home_minprice</string>
+    <string name="SEARCH_HOME_MAXPRICE">search_home_maxprice</string>
+    <string name="SEARCH_HOME_TYPE">search_home_type</string>
+    <string name="SEARCH_HOME_AREA">search_home_area</string>
+    <string name="SEARCH_HOME_CITY">search_home_city</string>
+    <string name="SEARCH_HOME_DATA">search_home_date</string>
+    <string name="SEARCH_HOME_ACTIVE">search_home_active</string>
+    <string name="SEARCH_ROOM_TITOLO">search_room_title</string>
+    <string name="SEARCH_ROOM_ID">search_room_id</string>
+    <string name="SEARCH_ROOM_DESCRIPTION">search_room_description</string>
+    <string name="SEARCH_ROOM_MINPRICE">search_room_minprice</string>
+    <string name="SEARCH_ROOM_MAXPRICE">search_room_maxprice</string>
+    <string name="SEARCH_ROOM_TYPE">search_room_type</string>
+    <string name="SEARCH_ROOM_AREA">search_room_area</string>
+    <string name="SEARCH_ROOM_CITY">search_room_city</string>
+    <string name="SEARCH_ROOM_DATA">search_room_date</string>
+    <string name="SEARCH_ROOM_ACTIVE">search_room_active</string>
+    <string name="OFFER_HOME_TITOLO">offer_home_title</string>
+    <string name="OFFER_HOME_ID">offer_home_id</string>
+    <string name="OFFER_HOME_DESCRIPTION">offer_home_description</string>
+    <string name="OFFER_HOME_PRICE">offer_home_price</string>
+    <string name="OFFER_HOME_MQ">offer_home_mq</string>
+    <string name="OFFER_HOME_TYPE">offer_home_type</string>
+    <string name="OFFER_HOME_AREA">offer_home_area</string>
+    <string name="OFFER_HOME_DATA">offer_home_date</string>
+    <string name="OFFER_HOME_ACTIVE">offer_home_active</string>
+    <string name="OFFER_HOME_ADDRESS">offer_home_address</string>
+    <string name="OFFER_HOME_CITY">offer_home_city</string>
+    <string name="OFFER_HOME_LAT">offer_home_lat</string>
+    <string name="OFFER_HOME_LNG">offer_home_lng</string>
+    <string name="OFFER_ROOM_TITOLO">offer_room_title</string>
+    <string name="OFFER_ROOM_ID">offer_room_id</string>
+    <string name="OFFER_ROOM_DESCRIPTION">offer_room_description</string>
+    <string name="OFFER_ROOM_PRICE">offer_room_price</string>
+    <string name="OFFER_ROOM_MQ">offer_room_mq</string>
+    <string name="OFFER_ROOM_TYPE">offer_room_type</string>
+    <string name="OFFER_ROOM_AREA">offer_room_area</string>
+    <string name="OFFER_ROOM_DATA">offer_room_date</string>
+    <string name="OFFER_ROOM_ACTIVE">offer_room_active</string>
+    <string name="OFFER_ROOM_ADDRESS">offer_room_address</string>
+    <string name="OFFER_ROOM_CITY">offer_room_city</string>
+    <string name="OFFER_ROOM_LAT">offer_room_lat</string>
+    <string name="OFFER_ROOM_LNG">offer_room_lng</string>
+    <string name="NO_ADS">No Ads Found.</string>
+    <string name="NO_RES">No Research Found.</string>
+    <string name="ERROR_RESEARCH">An error occurred during research. Please try again.</string>
+    <string name="title_activity_detail_fragment">Detail</string>
+    <string name="title_activity_ads_fragment">Ads</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_ad_list">Ads</string>
+    <string name="title_ad_detail">Ad Detail</string>
+    <string name="title_activity_geo_bacheca">Geobacheca</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="buttonBacheca">Bacheca</string>
+    <string name="buttonGeoBacheca">GeoBacheca</string>
+    <string name="buttonUser">User</string>
+    <string name="title_activity_profilo_activiry">User</string>
+    <string name="adsUser">Your Ads</string>
+    <string name="favsUser">Your Favourites</string>
+    <string name="resUser">Your Researches</string>
+    <string name="title_activity_my_ads">Ads</string>
+    <string name="title_activity_my_ads_fragment">Ads</string>
+    <string name="title_activity_my_res">Research</string>
+    <string name="title_activity_my_res_fragment">Research</string>
+    <string name="title_activity_my_favs">Favs</string>
+    <string name="title_activity_my_favs_fragment">Favs</string>
+    <string name="addads">addads</string>
+    <string name="addres">addres</string>
+    <string name="title_activity_add_ads">AddAds</string>
+    <string name="title_activity_add_ads2">AddAds</string>
+    <string name="title_activity_add_ads3">AddAds</string>
+    <string name="add">Add</string>
+    <string name="title_activity_add_maps">AddMaps</string>
+    <string name="title_activity_add_research">AddResearch</string>
+    <string name="EMPTY_RES">Catogry field is required</string>
+    <string name="title_activity_my_res_result">ResResults</string>
+    <string name="title_activity_geobacheca">GeobachecaActivity</string>
+    <string name="title_activity_my_res_result_fragment">MyResResultFragment</string>
+    <string name="title_activity_profilo">ProfiloActivity</string>
+    
+    <string name="newpassword">New Password</string>
+    <string name="enteremail">Enter email</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="gps_title">GPS</string>
+     <string name="cancel">Cancel</string>
+    <string name="gps_msg">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="gps_settings">Settings</string>
+    <string name="del_user">Delete User</string>
+    <string name="del_user_msg">Do you really want to delete this user?</string>
+
+</resources>

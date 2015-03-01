@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/almostWhite"
+    android:clickable="true"
+    android:id="@+id/addad2">
+
+	<Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bottomborder"
+        android:layout_alignParentLeft="true" 
+        android:text="@string/save_data" />
+	
+     <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:hint="@string/description"
+        android:textSize="14sp"
+        android:id="@+id/editText"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/button1" />
+
+	 <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/orange"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:id="@+id/editText1"
+        android:inputType="numberDecimal"
+        android:layout_alignBaseline="@id/textView2"
+        android:layout_toRightOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView3"
+        android:textColor="@color/orange"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType="numberDecimal"
+        android:id="@+id/editText2"
+        android:layout_alignBaseline="@id/textView3"
+        android:layout_toRightOf="@+id/textView3" />
+
+   
+    
+     
+
+</RelativeLayout>

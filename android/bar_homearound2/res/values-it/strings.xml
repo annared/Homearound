@@ -1,0 +1,298 @@
+<resources>
+    
+<!-- SERVER -->
+    <string name="HOST">http://www.redcouch.it/homearound/server/</string>
+    <string name="POST">POST</string>
+    <string name="LAT">latitudine</string>
+    <string name="LNG">longitudine</string>
+      <string name="categoria">categoria</string>
+    <string name="STATUS">stato</string>
+    <string name="MSG">messaggio</string>
+    <string name="USER_EXISTS">user exists</string>
+    <string name="INSERISCI">ads_insert.php</string>
+    <string name="ADS_RESEARCH">ads_research.php</string>
+    <string name="DELETE_ADS">ads_delete.php</string>
+    <string name="CHECK_FAVS">favs_check.php</string>
+    <string name="FAVS_INSERT">favs_insert.php</string>
+    <string name="DELETE_RES">research_delete.php</string>
+    <string name="USER_RESEARCH">research_insert.php</string>
+    <string name="RESEARCH_FIND">research_find.php</string>
+    <string name="EDIT_AD">ads_edit.php</string>
+    <string name="DOWNLOAD_GEO_BACHECA">ads_georesearch.php</string>
+    <string name="TRANSLATE">address_to_coordinates.php</string>
+    <string name="USER_ADS">user_ads.php</string>
+    <string name="USER_DATA">user_data.php</string>
+    <string name="USER_FAVS">user_favs.php</string>
+    <string name="PHP_LOGIN">user_login.php</string>
+    <string name="PHP_MOD">user_mod.php</string>
+    <string name="NEW_ACCOUNT">user_newaccount.php</string>
+    <string name="USER_DOWNLOADRESEARCH">user_research.php</string>
+    <string name="USER_DELETE">user_delete.php</string>
+    <string name="USER_LOST_PSW">user_lostpassword.php</string>
+    <string name="IMAGE_PATH">images/</string>
+    <string name="IMAGE_INSERT">upload_img.php</string>
+    <string name="app_name">HomeAround</string>
+    <string name="action_settings">Settings</string>
+    
+    
+     <string name="offer_home">offer_home</string>
+    <string name="offer_room">offer_room</string>
+    <string name="search_home">search_home</string>
+    <string name="search_room">search_room</string>
+    <string name="EMAIL_USER">user_email</string>
+    <string name="PSW_USER">user_password</string>
+    <string name="FIRSTNAME_USER">user_firstname</string>
+    <string name="LASTNAME_USER">user_lastname</string>
+    <string name="AVATAR_USER">user_avatar</string>
+    <string name="title_activity_research_ativity">Research</string>
+    <string name="SEARCH_HOME_TITOLO">search_home_title</string>
+    <string name="SEARCH_HOME_ID">search_home_id</string>
+    <string name="SEARCH_HOME_DESCRIPTION">search_home_description</string>
+    <string name="SEARCH_HOME_MINPRICE">search_home_minprice</string>
+    <string name="SEARCH_HOME_MAXPRICE">search_home_maxprice</string>
+    <string name="SEARCH_HOME_TYPE">search_home_type</string>
+    <string name="SEARCH_HOME_AREA">search_home_area</string>
+    <string name="SEARCH_HOME_CITY">search_home_city</string>
+    <string name="SEARCH_HOME_DATA">search_home_date</string>
+    <string name="SEARCH_HOME_ACTIVE">search_home_active</string>
+    <string name="SEARCH_ROOM_TITOLO">search_room_title</string>
+    <string name="SEARCH_ROOM_ID">search_room_id</string>
+    <string name="SEARCH_ROOM_DESCRIPTION">search_room_description</string>
+    <string name="SEARCH_ROOM_MINPRICE">search_room_minprice</string>
+    <string name="SEARCH_ROOM_MAXPRICE">search_room_maxprice</string>
+    <string name="SEARCH_ROOM_TYPE">search_room_type</string>
+    <string name="SEARCH_ROOM_AREA">search_room_area</string>
+    <string name="SEARCH_ROOM_CITY">search_room_city</string>
+    <string name="SEARCH_ROOM_DATA">search_room_date</string>
+    <string name="SEARCH_ROOM_ACTIVE">search_room_active</string>
+    <string name="OFFER_HOME_TITOLO">offer_home_title</string>
+    <string name="OFFER_HOME_ID">offer_home_id</string>
+    <string name="OFFER_HOME_DESCRIPTION">offer_home_description</string>
+    <string name="OFFER_HOME_PRICE">offer_home_price</string>
+    <string name="OFFER_HOME_MQ">offer_home_mq</string>
+    <string name="OFFER_HOME_TYPE">offer_home_type</string>
+    <string name="OFFER_HOME_AREA">offer_home_area</string>
+    <string name="OFFER_HOME_DATA">offer_home_date</string>
+    <string name="OFFER_HOME_ACTIVE">offer_home_active</string>
+    <string name="OFFER_HOME_ADDRESS">offer_home_address</string>
+    <string name="OFFER_HOME_CITY">offer_home_city</string>
+    <string name="OFFER_HOME_LAT">offer_home_lat</string>
+    <string name="OFFER_HOME_LNG">offer_home_lng</string>
+    <string name="OFFER_ROOM_TITOLO">offer_room_title</string>
+    <string name="OFFER_ROOM_ID">offer_room_id</string>
+    <string name="OFFER_ROOM_DESCRIPTION">offer_room_description</string>
+    <string name="OFFER_ROOM_PRICE">offer_room_price</string>
+    <string name="OFFER_ROOM_MQ">offer_room_mq</string>
+    <string name="OFFER_ROOM_TYPE">offer_room_type</string>
+    <string name="OFFER_ROOM_AREA">offer_room_area</string>
+    <string name="OFFER_ROOM_DATA">offer_room_date</string>
+    <string name="OFFER_ROOM_ACTIVE">offer_room_active</string>
+    <string name="OFFER_ROOM_ADDRESS">offer_room_address</string>
+    <string name="OFFER_ROOM_CITY">offer_room_city</string>
+    <string name="OFFER_ROOM_LAT">offer_room_lat</string>
+    <string name="OFFER_ROOM_LNG">offer_room_lng</string>
+    <string name="res_cat">Cat</string>
+    <string name="none">None</string>
+    
+    <!-- Translate -->
+    <string name="login">Login</string>
+    <string name="new_account">Nuovo Account</string>
+    <string name="email">Email</string>
+    <string name="password">Passoword</string>
+    <string name="save_data">Salva i dati</string>
+    <string name="title_activity_new_account">Nuovo Account</string>
+    <string name="create">Crea</string>
+    <string name="cancel">Cancella</string>
+    <string name="first_name">Nome</string>
+    <string name="last_name">Cognome</string>
+    <string name="confirm">Conferma password</string>
+    <string name="new_password">Nuova Password</string>
+    <string name="title_activity_bacheca_acivity">Bacheca</string>
+    <string name="logout">Logout</string>
+    <string name="done">Fatto</string>
+    <string name="back">Indietro</string>
+    <string name="json">json</string>
+    <string name="lostpassword">Hai smarrito la password?</string>
+    <string name="chooseimage">Scegli un\'immagine</string>
+    <string name="first_section">Cerchi casa?\nSfoglia le offerte!\n</string>
+    <string name="favs">Favs</string>
+	<string name="change">I tuoi dati sono stati aggiornati.</string>
+    <string name="good">Ottimo.</string>
+    
+    <array name="cat">
+        <item>Casa</item>
+        <item>Stanza</item>
+        
+    </array>
+	    <string-array name="items">
+        <item >Bacheca</item>
+        <item >Geobacheca</item>
+        <item >User</item>
+    </string-array>
+  
+    <array name="profilo_list">
+        <item>I tuoi annunci</item>
+        <item>I tuoi preferiti</item>
+        <item>Le tue ricerche</item>
+    </array>
+    
+    <array name="nav_drawer_icons">
+        <item>@drawable/bacheca</item>
+        <item>@drawable/target</item>
+        <item>@drawable/user</item>
+    </array>
+    
+    <string name="error_msg_3">La vecchia password è richiesta.</string>
+    <string name="no_change">Non hai cambiato niente.</string>
+    
+    <string name="desc_list_item_icon">desc_list_item_icon</string>
+    
+    <string name="change_profile">Modifica il profilo</string>
+    <string name="delete">cancello..</string>
+    <string name="second_section">Affitti o vendi?\nTrova un\'inquilino!\n</string>
+    <string name="title_activity_research">Ricerca</string>
+    <string name="title">Titolo</string>
+    <string name="description">Descrizione</string>
+    <string name="type">Tipo</string>
+    <string name="city">Città</string>
+    <string name="area">Zona</string>
+    <string name="address">Indirizzo</string>
+    <string name="price">Prezzo</string>
+    <string name="min_price">Prezzo minimo</string>
+    <string name="max_price">Prezzo massimo</string>
+    <string name="mq">MQ</string>
+    <string name="edit">Modifica</string>
+    <string name="next">Avanti</string>
+
+    <string-array name="Min_Price">
+        <item>None</item>
+        <item>150</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="Max_Price">
+        <item>None</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string-array name="Price">
+        <item>None</item>
+        <item>400</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1200</item>
+    </string-array>
+    <string-array name="MQ">
+        <item>None</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>140</item>
+    </string-array>
+    <string-array name="Home">
+        <item>None</item>
+        <item>Monolocale</item>
+        <item>Bilocale</item>
+        <item>Trilocale</item>
+        <item>Quadrilocale o più stanze</item>
+    </string-array>
+    <string-array name="Room">
+        <item>None</item>
+        <item>Camera singola</item>
+        <item>Camera doppia</item>
+        <item>Camera tripla</item>
+        <item>Quattro o più posti letto</item>
+    </string-array>
+    <string-array name="City">
+        <item>None</item>
+        <item>Milano</item>
+    </string-array>
+    <string-array name="Milano">
+        <item>None</item>
+        <item>Duomo</item>
+        <item>Loreto</item>
+        <item>Lambrate</item>
+        <item>Citta Studi</item>
+        <item>Forlanini</item>
+        <item>Corvetto</item>
+        <item>Lorenteggio</item>
+        <item>San Siro</item>
+        <item>Garibaldi</item>
+        <item>Bovisa</item>
+        <item>Niguarda</item>
+        <item>Bicocca</item>
+    </string-array>
+    <string-array name="arrayCat">
+        <item>None</item>
+        <item>Offro casa</item>
+        <item>Offro stanza</item>
+        <item>Cerco casa</item>
+        <item>Cerco stanza</item>
+    </string-array>
+	
+    <string name="new_password">new_password</string>
+    <string name="newp">Nuova password</string>
+     <string name="invalid_password">Password non valida</string>
+    <string name="research">Ricerca</string>
+    <string name="category">Categoria</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_ads">Annunci</string>
+    <string name="title_activity_bacheca">Bacheca</string>
+    <string name="sorry">Ci scusiamo.</string>
+    <string name="error_empty_login">Email e password richiesti.</string>
+    <string name="error_login_msg">Username o password invalidi, controlla le informazioni.</string>
+    <string name="NO_INTERNET">Nessuna connessione a internet.\nQualcuno ha rotto internet :(</string>
+    <string name="PASSWORD_ERROR">Le due password non coincidono</string>
+    <string name="ok_reg_msg">Grazie per esserti registrato! Controlla la mail per l\'attivazione.</string>
+    <string name="error_reg_msg">Errore durante la registrazione. Riprova."</string>
+    <string name="EMPTY_REG_MSG">È necessario compilare tutti i campi.</string>
+    <string name="ERROR_INS_MSG">Errore durante il processo. Riprova.</string>
+
+    <string name="NO_ADS">Nessun annuncio trovato.</string>
+    <string name="NO_RES">Nessuna ricerca trovata.</string>
+    <string name="ERROR_RESEARCH">Errore durante la ricerca. Riprova.</string>
+    <string name="title_activity_detail_fragment">Detail</string>
+    <string name="title_activity_ads_fragment">Ads</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_ad_list">Ads</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="buttonBacheca">Bacheca</string>
+    <string name="buttonGeoBacheca">GeoBacheca</string>
+    <string name="buttonUser">User</string>
+  
+    <string name="title_activity_my_ads_fragment">Annunci</string>
+
+    <string name="title_activity_my_res_fragment">Ricerca</string>
+
+    <string name="title_activity_my_favs_fragment">Preferiti</string>
+    <string name="addads">addads</string>
+    <string name="addres">addres</string>
+
+    <string name="add">Add</string>
+
+    <string name="EMPTY_RES">Il campo categoria è necessario.</string>
+
+    <string name="title_activity_my_res_result_fragment">MyResResultFragment</string>
+
+	<string name="newpassword">Nuova Password</string>
+	<string name="enteremail">Inserisci email</string>
+	 <string name="yes">Si</string>
+    <string name="no">No</string>
+     <string name="gps_title">impostazioni GPS</string>
+     <string name="cancel">Annulla</string>
+    <string name="gps_msg">GPS inattivo. Vuoi attivarlo dalle impostazioni=?</string>
+    <string name="gps_settings">Impostazioni</string>
+    <string name="del_user">Cancella utente</string>
+    <string name="del_user_msg">Vuoi veramente cancellare questo utente?</string>
+</resources>

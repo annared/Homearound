@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/almostWhite"
+    android:clickable="true"
+    android:id="@+id/addmap">
+	
+     <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bottomborder"
+        android:text="@string/next" />
+     
+      <EditText
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/editText"
+       android:hint="@string/address"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="60dp"
+       android:layout_marginRight="10dp"
+       android:layout_toLeftOf="@+id/button"
+       android:layout_alignParentLeft="true" />
+       
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:id="@+id/button"
+        android:layout_alignBaseline="@id/editText"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentRight="true"/>
+
+  
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_below="@+id/editText"  >
+
+    
+        <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+        
+        <fragment
+        android:id="@+id/map3"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+ 
+</RelativeLayout>
+
+</RelativeLayout>

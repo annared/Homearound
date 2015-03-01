@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/almostWhite"
+    tools:context=".NewAccountActivity" >
+	
+	<Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bottomborder"
+        android:text="@string/save_data" />
+	
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:contentDescription="@string/AVATAR_USER"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_margin="20dp"
+        android:background="@drawable/border" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="@string/chooseimage" />
+
+    <ImageButton
+        android:id="@+id/pick"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="65dp"
+        android:contentDescription="@string/buttonUser"
+        android:layout_toRightOf="@id/label"
+        android:background="@color/lightlightgray"
+        android:src="@drawable/plus"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/newp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText2"
+        android:ems="10"
+        android:hint="@string/confirm"
+        android:inputType="textPassword" />
+
+</RelativeLayout>
